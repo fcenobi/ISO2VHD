@@ -9,5 +9,5 @@ This is slightly modified version of the script from [Creating a bootable VHD th
   * **.\ISO2VHD.bat \<path where you like to store the VHD, doesn’t work on external drives\> \<size in MB\> \<type FIXED|EXPANDABLE\> \<drive letter assigned to the VHD _without_ semicolon\> \<path to the ISO-file\> \<VHD disk label (optional)\>.**
   * Example: 
   ```
-  .\ISO2VHD.bat C:\VHD\Win7.vhd 20000 FIXED W win7_sp1_x86-x64_dvd.iso
+  .\ISO2VHD.bat C:\VHD\Win7.vhd 20000 FIXED W win7_sp1_x86-x64_dvd.iso 8
   ```
